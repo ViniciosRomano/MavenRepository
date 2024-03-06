@@ -6,7 +6,6 @@
   <groupId>io.github.viniciosromano</groupId>
   <artifactId>MavenRepository</artifactId>
   <version>1.2-SNAPSHOT</version>
-
   <name>MavenRepository</name>
   <!-- FIXME change it to the project's website -->
   <url>https://github.com/ViniciosRomano/MavenRepository</url>
@@ -16,6 +15,13 @@
     <url>https://github.com/ViniciosRomano/MavenRepository</url>
     <tag>v1.0</tag>
   </scm>
+  <distributionManagement>
+    <repository>
+      <id>internal-repository</id>
+      <name>Internal Releases</name>
+      <url>https://github.com/ViniciosRomano/MavenRepository</url>
+    </repository>
+  </distributionManagement>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
