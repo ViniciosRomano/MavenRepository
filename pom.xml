@@ -16,10 +16,13 @@
     <tag>v1.0</tag>
   </scm>
   <distributionManagement>
+    <snapshotRepository>
+      <id>ossrh</id>
+      <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+    </snapshotRepository>
     <repository>
-      <id>internal-repository</id>
-      <name>Internal Releases</name>
-      <url>https://github.com/ViniciosRomano/MavenRepository</url>
+      <id>ossrh</id>
+      <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
     </repository>
   </distributionManagement>
 
