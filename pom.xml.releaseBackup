@@ -5,10 +5,13 @@
 
   <groupId>io.github.viniciosromano</groupId>
   <artifactId>MavenRepository</artifactId>
-  <version>1.6-SNAPSHOT</version>
+  <version>1.7-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
   <name>MavenRepository</name>
   <!-- FIXME change it to the project's website -->
   <url>https://github.com/ViniciosRomano/MavenRepository</url>
+  <description>A demo for deployment to the Central Repository via OSSRH Test</description>
   <scm>
     <connection>scm:git:https://github.com/ViniciosRomano/MavenRepository.git</connection>
     <developerConnection>scm:git:https://github.com/ViniciosRomano/MavenRepository.git</developerConnection>
