@@ -14,7 +14,7 @@
   <description>A demo for deployment to the Central Repository via OSSRH Test</description>
   <scm>
     <connection>scm:git:https://github.com/ViniciosRomano/MavenRepository.git</connection>
-    <developerConnection>scm:git:ssh:https://github.com:ViniciosRomano/MavenRepository.git</developerConnection>
+    <developerConnection>scm:git:git@github.com:ViniciosRomano/MavenRepository.git</developerConnection>
     <url>https://github.com/ViniciosRomano/MavenRepository</url>
     <tag>v1.10</tag>
   </scm>

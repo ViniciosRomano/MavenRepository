@@ -5,7 +5,7 @@
 
   <groupId>io.github.viniciosromano</groupId>
   <artifactId>MavenRepository</artifactId>
-  <version>1.9-SNAPSHOT</version>
+  <version>1.10-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <name>MavenRepository</name>
@@ -14,7 +14,7 @@
   <description>A demo for deployment to the Central Repository via OSSRH Test</description>
   <scm>
     <connection>scm:git:https://github.com/ViniciosRomano/MavenRepository.git</connection>
-    <developerConnection>scm:git:https://github.com/ViniciosRomano/MavenRepository.git</developerConnection>
+    <developerConnection>scm:git:ssh:https://github.com:ViniciosRomano/MavenRepository.git</developerConnection>
     <url>https://github.com/ViniciosRomano/MavenRepository</url>
     <tag>v1.0</tag>
   </scm>
@@ -38,10 +38,10 @@
 
   <developers>
     <developer>
-      <name>Manfred Moser</name>
-      <email>manfred@simpligility.com</email>
-      <organization>simpligility technologies inc.</organization>
-      <organizationUrl>http://www.simpligility.com</organizationUrl>
+      <name>Vinicios Romanor</name>
+      <email>viniciosromano@outlook.com</email>
+      <organization>Github</organization>
+      <organizationUrl>https://github.com/ViniciosRomano</organizationUrl>
     </developer>
   </developers>
 
