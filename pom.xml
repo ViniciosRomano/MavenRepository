@@ -5,7 +5,7 @@
 
   <groupId>io.github.viniciosromano</groupId>
   <artifactId>MavenRepository</artifactId>
-  <version>1.10</version>
+  <version>1.10-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <name>MavenRepository</name>
@@ -14,9 +14,9 @@
   <description>A demo for deployment to the Central Repository via OSSRH Test</description>
   <scm>
     <connection>scm:git:https://github.com/ViniciosRomano/MavenRepository.git</connection>
-    <developerConnection>scm:git:git@github.com:ViniciosRomano/MavenRepository.git</developerConnection>
+    <developerConnection>scm:git:https://github.com/ViniciosRomano/MavenRepository.git</developerConnection>
     <url>https://github.com/ViniciosRomano/MavenRepository</url>
-    <tag>v1.10</tag>
+    <tag>v1.0</tag>
   </scm>
   <distributionManagement>
     <snapshotRepository>
